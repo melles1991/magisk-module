@@ -1,7 +1,6 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v2.0
-versionCode=10
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=increase-microphone
+name=Increase microphone
+version=v1.0
+versionCode=1
+author=Dmytro Halytskyi
+description=Increase the volume of the microphone, speaker, headphone to get a good using experience

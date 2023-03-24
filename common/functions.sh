@@ -106,9 +106,6 @@ prop_process() {
 }
 
 # Credits
-ui_print "**************************************"
-ui_print "*   MMT Extended by Zackptg5 @ XDA   *"
-ui_print "**************************************"
 ui_print " "
 
 # Check for min/max api version
@@ -202,7 +199,7 @@ for i in $(find $MODPATH -type f -name "*.sh" -o -name "*.prop" -o -name "*.rule
   esac
 done
 
-$IS64BIT || for i in $(find $MODPATH/system -type d -name "lib64"); do rm -rf $i 2>/dev/null; done  
+$IS64BIT || for i in $(find $MODPATH/system -type d -name "lib64"); do rm -rf $i 2>/dev/null; done
 [ -d "/system/priv-app" ] || mv -f $MODPATH/system/priv-app $MODPATH/system/app 2>/dev/null
 [ -d "/system/xbin" ] || mv -f $MODPATH/system/xbin $MODPATH/system/bin 2>/dev/null
 if $DYNLIB; then
